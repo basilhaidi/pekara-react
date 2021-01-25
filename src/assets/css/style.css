@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Berlin Sans FB';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Berlin Sans FB Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB Bold'), url('BRLNSB.woff') format('woff');
+    }
+
+html,body,header{
+    scroll-behavior: smooth;
+}
+nav .navbar-nav a, .jumbotron, .navbar-brand, .tombol{
+    font-family: 'Berlin Sans FB';
+}
+
+.navbar-brand img{
+    width: auto;
+    height: 48px;
+}
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 12px;
+} 
+
+/* Jumbotron */
+.background {
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+    margin-top: 74px;
+}
+
+.tentang{
+    color: 353A40;
+    margin: 40px 0px;
+    text-align: center;
+    color: #353A40;
+}
+
+.tentang h2{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-family:'Berlin Sans FB';
+    margin-top: 24px;
+}
+
+.tentang p{
+    font-size: 18px;
+    color: #acacac;
+    font-weight: 200;
+    font-family: 'Public Sans', sans-serif;;
+    margin: 25px 0px;
+}
+
+.struktur{
+    font-family: 'Berlin Sans FB';
+}
+
+.depart, .kontak{
+    font-family: 'Berlin Sans FB';
+    margin-top: -32px;
+    color: #353A40;
+}
+
+.kegiatan{
+    font-family: 'Berlin Sans FB';
+    color: #ffffff;
+}
+
+.icon{
+    width: 20%;
+}
+
+.footer{
+    padding: 16px;
+    font-family: 'Berlin Sans FB';
+}
+
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #F0E85B;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron .leads{
+        margin-top: 150px;
+    }
+
+    .tentang{
+        text-align: left;
+    }
+
+    .struktur{
+        width: 70%;
+        position: relative;
+        margin-left: 17%;
+    }
+    .struktur h4, .depart h4, .kegiatan h4{
+        font-size: xx-large;
+        margin-bottom: 5%;
+    }
+
+    .card-depart{
+        margin-top: 5%;
+    }
+
+    #kegiatan-img{
+        width: 50%;
+    }
+
+    .footer p{
+        font-size: 20px;
+    }
+}
