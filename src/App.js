@@ -1,25 +1,23 @@
-import logo from "./logo.svg";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Carousel } from "react-bootstrap";
-import logoNavbar from "./assets/img/logo-navbar.png";
-import eksternal from "./assets/img/eksternal.png";
-import internal from "./assets/img/internal.png";
-import orsenbud from "./assets/img/orsenbud.png";
-import logistik from "./assets/img/logistik.png";
-import medinfo from "./assets/img/medinfo.png";
-import poenaPerkara from "./assets/img/poena.png";
-import makrab from "./assets/img/makrab.png";
-import halalBihalal from "./assets/img/halalbihalal.png";
-import graduation from "./assets/img/graduation.png";
-import welcoming from "./assets/img/welcoming.png";
-import struktur from "./assets/img/Struktur.jpeg";
-import logoGray from "./assets/img/logo-gray.png";
-import whatsapp from "./assets/img/whatsapp.png";
-import instagram from "./assets/img/instagram.png";
-import line from "./assets/img/line.png";
-import background from "./assets/img/background.png";
-import "./assets/css/style.css";
+import logoNavbar from "assets/img/logo-navbar.png";
+import eksternal from "assets/img/eksternal.png";
+import internal from "assets/img/internal.png";
+import orsenbud from "assets/img/orsenbud.png";
+import logistik from "assets/img/logistik.png";
+import medinfo from "assets/img/medinfo.png";
+import poenaPerkara from "assets/img/poena.png";
+import makrab from "assets/img/makrab.png";
+import halalBihalal from "assets/img/halalbihalal.png";
+import graduation from "assets/img/graduation.png";
+import welcoming from "assets/img/welcoming.png";
+import struktur from "assets/img/Struktur.jpeg";
+import logoGray from "assets/img/logo-gray.png";
+import whatsapp from "assets/img/whatsapp.png";
+import instagram from "assets/img/instagram.png";
+import line from "assets/img/line.png";
+import background from "assets/img/background.png";
+import "assets/css/style.css";
 
 function App() {
   return (
