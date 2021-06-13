@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
-function Latihan() {
+const Latihan = () => {
   return (
     <div>
       <Container fluid="lg">
@@ -11,6 +11,6 @@ function Latihan() {
       </Container>
     </div>
   );
-}
+};
 
 export default Latihan;

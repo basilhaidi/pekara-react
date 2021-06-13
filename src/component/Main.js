@@ -1,29 +1,28 @@
-import React from "react";
-import eksternal from "assets/img/eksternal.png";
-import internal from "assets/img/internal.png";
-import orsenbud from "assets/img/orsenbud.png";
-import logistik from "assets/img/logistik.png";
-import medinfo from "assets/img/medinfo.png";
-import poenaPerkara from "assets/img/poena.png";
-import makrab from "assets/img/makrab.png";
-import halalBihalal from "assets/img/halalbihalal.png";
-import graduation from "assets/img/graduation.png";
-import welcoming from "assets/img/welcoming.png";
-import struktur from "assets/img/Struktur.jpeg";
-import logoGray from "assets/img/logo-gray.png";
-import whatsapp from "assets/img/whatsapp.png";
-import instagram from "assets/img/instagram.png";
-import line from "assets/img/line.png";
-import { Carousel } from "react-bootstrap";
+import React from 'react';
+import eksternal from 'assets/img/eksternal.png';
+import internal from 'assets/img/internal.png';
+import orsenbud from 'assets/img/orsenbud.png';
+import logistik from 'assets/img/logistik.png';
+import medinfo from 'assets/img/medinfo.png';
+import poenaPerkara from 'assets/img/poena.png';
+import makrab from 'assets/img/makrab.png';
+import halalBihalal from 'assets/img/halalbihalal.png';
+import graduation from 'assets/img/graduation.png';
+import welcoming from 'assets/img/welcoming.png';
+import struktur from 'assets/img/Struktur.jpeg';
+import logoGray from 'assets/img/logo-gray.png';
+import whatsapp from 'assets/img/whatsapp.png';
+import instagram from 'assets/img/instagram.png';
+import line from 'assets/img/line.png';
+import { Carousel } from 'react-bootstrap';
 
-export default function Main() {
+const Main = () => {
   return (
     <div>
       <main>
         <div
           className="jumbotron jumbotron-fluid bt-2 bg-transparent"
-          id="tentang"
-        >
+          id="tentang">
           <div className="container">
             <div className="row tentang">
               <div className="col-lg-6">
@@ -31,7 +30,7 @@ export default function Main() {
                   src={logoGray}
                   className="img-fluid"
                   alt="perkara"
-                  style={{ width: "75%" }}
+                  style={{ width: '75%' }}
                 />
               </div>
               <div className="col-lg-5">
@@ -68,8 +67,7 @@ export default function Main() {
 
         <div
           className="jumbotron jumbotron-fluid bg-transparent depart"
-          id="depart"
-        >
+          id="depart">
           <div className="container">
             <h4 className="text-center text-uppercase">
               <b>Departemen</b>
@@ -106,8 +104,7 @@ export default function Main() {
 
         <div
           className="jumbotron jumbotron-fluid bg-dark kegiatan"
-          id="kegiatan"
-        >
+          id="kegiatan">
           <div className="container" id="kegiatan-img">
             <h4 className="text-center text-uppercase">
               <b>kegiatan</b>
@@ -115,8 +112,7 @@ export default function Main() {
             <div
               id="carouselExampleIndicators"
               className="carousel slide"
-              data-ride="carousel"
-            >
+              data-ride="carousel">
               <Carousel>
                 <Carousel.Item>
                   <img
@@ -160,8 +156,7 @@ export default function Main() {
 
         <div
           className="jumbotron jumbotron-fluid bg-transparent kontak"
-          id="kontak"
-        >
+          id="kontak">
           <div className="container">
             <h1 className="text-center">KONTAK KAMI</h1>
             <section>
@@ -192,4 +187,6 @@ export default function Main() {
       </main>
     </div>
   );
-}
+};
+
+export default Main;

@@ -1,9 +1,9 @@
-import React from "react";
-import background from "assets/img/background.png";
-import NavbarPerkara from "./NavbarPerkara";
-import { Link } from "react-router-dom";
+import React from 'react';
+import background from 'assets/img/background.png';
+import NavbarPerkara from './NavbarPerkara';
+import { Link } from 'react-router-dom';
 
-export default function header() {
+const header = () => {
   return (
     <div>
       <header>
@@ -11,9 +11,8 @@ export default function header() {
         <div
           className="jumbotron jumbotron-fluid background"
           // style="background-image: url(assets/img/background.png);"
-          style={{ backgroundImage: `url(${background})` }}
-        >
-          <div className="container" style={{ marginTop: "150px" }}>
+          style={{ backgroundImage: `url(${background})` }}>
+          <div className="container" style={{ marginTop: '150px' }}>
             <h1 className="display-4 text-white mt-4 ">
               Persatuan Karawang Rantau
             </h1>
@@ -21,8 +20,7 @@ export default function header() {
             <Link
               to="/daftar"
               type="button"
-              className="nav-item btn btn-light tombol"
-            >
+              className="nav-item btn btn-light tombol">
               <b>YUK GABUNG!</b>
             </Link>
             ;
@@ -31,4 +29,5 @@ export default function header() {
       </header>
     </div>
   );
-}
+};
+export default Header;
